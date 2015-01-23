@@ -1,3 +1,18 @@
+/*this is a CSS comment_*/
 html {
-  background-color: limegreen;
+  background-color: #000000;
+
+  /*
+    Black: #000000
+    White: #ffffff
+    Red: #ff0000
+    Blue: #0000ff
+
+    #00f
+
+    Grey: #ccc, #333
+
+    */
+
+  color: #fff;
 }
