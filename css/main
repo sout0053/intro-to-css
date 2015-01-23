@@ -1,6 +1,6 @@
-/*this is a CSS comment_*/
+/*this is a CSS comment */
 html {
-  background-color: #000000;
+  background-color: #ffffff;
 
   /*
     Black: #000000
@@ -14,5 +14,51 @@ html {
 
     */
 
-  color: #fff;
+  color: #000;
+}
+
+h1 {
+  color: red;
+  font-weight: normal;
+  font-size: 5rem;
+  line-height: 1;
+  text-shadow: 2px -5px 10px red;
+
+  /*
+    text shadow
+      horizontal offset
+      vertical offset
+      blur radius/size
+      colour
+  */
+}
+
+p {
+  font-style: italic;
+  text-decoration: underline;
+  text-decoration: line-through;
+  text-align: center;
+    /*
+      left
+      center
+      right
+      justify
+    */
+  font-family: 'Oswald', sans-serif;
+}
+
+ol {
+    list-style-type: disc;
+    /*
+      none
+      lower-roman
+      lower-alpha
+      decimal
+      circle
+      disc
+    */
+
+    /*
+      padding: 0;
+    */
 }
